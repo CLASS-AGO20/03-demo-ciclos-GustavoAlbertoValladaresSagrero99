@@ -32,6 +32,25 @@ export default class App {
         return cuenta;
     }
 
+
+    sumarParesWhile()
+    {
+        let suma= 0;
+        let fin = 0;
+
+        while(fin!=20)
+        {
+            fin++;
+            if(fin%2==0)
+            {
+                suma+=fin;
+            }
+
+        }
+
+        return suma;
+    }
+
 }
 
 let app = new App();
@@ -39,3 +58,5 @@ let app = new App();
 console.log(app.sumarParesFor());
 
 console.log(app.contarImparesFor(5,11));
+
+console.log(app.sumarParesWhile());
