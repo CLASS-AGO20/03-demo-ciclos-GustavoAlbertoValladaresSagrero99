@@ -7,7 +7,7 @@ export default class App {
         for(let i=1;i<=20;i++)
         {
 
-            if (i%2==0)
+            if (i%2!=0)
             {
                 suma+=i;
             }
@@ -38,4 +38,4 @@ let app = new App();
 
 console.log(app.sumarParesFor());
 
-console.log(app.contarImparesFor(1,100));
+console.log(app.contarImparesFor(5,11));
