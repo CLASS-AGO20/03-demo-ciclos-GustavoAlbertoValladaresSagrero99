@@ -82,7 +82,7 @@ export default class App {
                 suma+=i;
             }
 
-        }while(i<=20)
+        }while(i<=20);
 
         return suma;
     }
